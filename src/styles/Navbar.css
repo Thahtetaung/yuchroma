@@ -1,0 +1,14 @@
+nav{
+    @apply  sticky top-0 z-50 shadow-2xl;
+}
+
+nav div {
+    @apply  flex items-center justify-between bg-white px-6 py-2 
+}
+.navbar_rightitems {
+    @apply hidden md:flex font-custom hover:font-bold justify-center items-center min-w-[80px]
+}
+
+#navbar_rightcontainer {
+    @apply flex items-center justify-center
+}

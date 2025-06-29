@@ -1,0 +1,19 @@
+#hero_container {
+    @apply w-full h-[560px] flex items-center justify-center
+  }
+  
+.hero_header {
+    @apply flex items-center justify-center
+}
+.logo {
+    @apply w-auto h-[70px] bg-center my-2
+}
+.hero_text{
+    @apply text-center text-[20px] font-custom text-black
+}
+.hero_subtext{
+  @apply text-center font-custom text-lg
+}
+.hero_btn{
+    @apply bg-blue-600 px-4 py-2 rounded-md text-white font-custom hover:bg-blue-900
+}
