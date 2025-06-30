@@ -33,10 +33,10 @@ export default function Navbar(){
                 {isOpen && (
                 <div>
                     <ul className="flex mx-auto flex-col items-center justify-center space-y-4 py-2" id='navbar_mobile'>
-                        <li><Link to='/' className=''>Home</Link></li>
-                        <li><Link to='/portfolio' className=''>Portfolio</Link></li>
-                        <li><Link to='/aboutme' className=''>About me</Link></li>
-                        <li><Link to='/hireme' className=''>Hire me</Link></li>
+                        <li><Link to='/' onClick={ isOpen}>Home</Link></li>
+                        <li><Link to='/portfolio' onClick={ isOpen}>Portfolio</Link></li>
+                        <li><Link to='/aboutme' onClick={ isOpen}>About me</Link></li>
+                        <li><Link to='/hireme' onClick={ isOpen}>Hire me</Link></li>
                     </ul>
                 </div>
                 )}

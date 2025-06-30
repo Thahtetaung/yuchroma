@@ -1,0 +1,9 @@
+#aboutme_work_container{
+    @apply flex space-x-4 lg:justify-center max-w-[1100px] mx-auto  md:px-4 px-2
+}
+.aboutme_work{
+    @apply w-[320px] flex-shrink-0 space-y-4
+}
+#aboutme_work_link{
+    @apply flex items-center justify-center font-bold md:text-xl py-4 text-base hover:underline
+}
