@@ -1,0 +1,36 @@
+#aboutme_section {
+    @apply py-6 lg:ml-10
+}
+#aboutme_mobile {
+    @apply flex items-center justify-center flex-col md:hidden
+}
+#aboutme_img_container_mobile{
+    @apply w-[300px] h-[400px] rounded-md md:order-1 order-3 my-4
+}
+.aboutme_img {
+    @apply w-full h-full object-cover rounded-md
+}
+#aboutme_info_header_mobile {
+    @apply text-4xl font-bold
+}
+.aboutme_info_mobile{  
+    @apply text-lg md:text-xl
+}
+#aboutme_largescreen_container {
+    @apply md:flex items-center justify-center flex-col md:flex-row hidden px-6
+}
+#aboutme_img_largescreen_container {
+    @apply w-[300px] h-[400px] rounded-md flex-shrink-0 overflow-hidden
+}
+#aboutme_info_largescreen_container {
+    @apply flex flex-col w-[700px] px-4 space-y-4
+}
+#aboutme_info_largescreen_header {
+    @apply text-5xl font-bold
+}
+#aboutme_info_text {
+    @apply text-xl hidden lg:flex
+}
+#aboutme_info{
+    @apply text-xl hidden lg:hidden md:flex text-center py-4
+}

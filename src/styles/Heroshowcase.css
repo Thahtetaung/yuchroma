@@ -16,17 +16,17 @@
 }
 
 #showcase_images{
-    @apply flex space-x-4 overflow-hidden rounded-md p-4
+    @apply flex space-x-4 overflow-hidden rounded-md p-4 shrink-0
 }
 
 #showcase_link{
     @apply font-bold text-sm md:text-base hover:underline
 }
 #images_container{
-    @apply relative overflow-hidden rounded-md
+    @apply relative overflow-hidden rounded-md shrink-0
 }
 #images{
-    @apply rounded-md group-hover:scale-105 duration-300
+    @apply rounded-md group-hover:scale-105 duration-300 shrink-0
 }
 #overlay{
     @apply absolute inset-0 flex items-end justify-center bg-black bg-opacity-0 group-hover:bg-opacity-25 transition duration-300

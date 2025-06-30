@@ -1,0 +1,36 @@
+#footer_bg{
+    @apply absolute inset-0 w-full 
+}
+#footer_bg_img{
+    @apply object-center object-cover w-full h-full
+}
+#footer_tabs_container{
+    @apply flex items-center justify-between flex-col md:flex-row space-y-4 py-6 relative container mx-auto
+}
+#footer_logo_container{
+    @apply flex flex-col space-y-2 items-center justify-center md:items-start
+}
+#footer_links_container{
+    @apply flex flex-row md:gap-10 gap-6 px-6
+}
+#footer_socials_container{
+    @apply flex flex-col space-y-1
+}
+#footer_social_header{
+    @apply text-3xl font-bold
+}
+.footer_socials{
+    @apply text-lg flex gap-2 items-center
+}
+#footer_pages_container{
+    @apply flex flex-col space-y-1
+}
+#footer_pages_header{
+    @apply text-3xl font-bold
+}
+.footer_pages{
+    @apply text-lg 
+}
+#footer_copyright{
+    @apply text-center text-sm py-2 z-50 relative
+}
