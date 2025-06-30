@@ -1,5 +1,5 @@
 #showcase_container{
-    @apply flex flex-col items-center justify-center py-6
+    @apply flex flex-col items-center justify-center py-6 
 }
 
 .showcase_header{
@@ -16,21 +16,21 @@
 }
 
 #showcase_images{
-    @apply flex space-x-4 overflow-hidden rounded-md p-4 shrink-0
+    @apply flex space-x-4 rounded-md p-4 flex-shrink-0
 }
 
 #showcase_link{
     @apply font-bold text-sm md:text-base hover:underline
 }
-#images_container{
-    @apply relative overflow-hidden rounded-md shrink-0
+.images_container{
+    @apply relative rounded-md shrink-0 overflow-hidden
 }
-#images{
+.images{
     @apply rounded-md group-hover:scale-105 duration-300 shrink-0
 }
-#overlay{
+.overlay{
     @apply absolute inset-0 flex items-end justify-center bg-black bg-opacity-0 group-hover:bg-opacity-25 transition duration-300
 }
-#image_title{
-    @apply text-white text-xl md:text-3xl font-bold transition-transform translate-y-10 group-hover:translate-y-0 duration-500 py-2
+.image_title{
+    @apply text-white text-3xl font-bold transition-transform translate-y-10 group-hover:translate-y-0 duration-500 py-2
 }
