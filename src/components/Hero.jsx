@@ -2,15 +2,15 @@ import Homehero from '../assets/images/home_hero.jpg';
 import Logo from '../assets/images/logo_full.png';
 import '../styles/Hero.css';
 
-export default function Hero() {
+export default function Hero({img = Homehero , className = "w-full h-[560px] object-cover object-center"}) {
     return (
         <section>
             <div id='hero_container'>
-                <img src={Homehero} alt="Hero" className="w-full h-[560px] object-cover object-center" />
+                <img src={img} alt="Hero" className={className} />
                 <div className="absolute top-100">
                     <div className="hero_header">
                         <div className="logo">
-                            <a href="#"><img src={Logo} alt="" className="w-auto h-[70px] bg-center" /></a>
+                            <a href="#"><img src={Logo} alt="Logo" className="w-auto h-[70px] bg-center" /></a>
                         </div>
                     </div>
                     <div className="hero_text">

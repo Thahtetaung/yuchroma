@@ -12,3 +12,19 @@ nav div {
 #navbar_rightcontainer {
     @apply flex items-center justify-center
 }
+.dropdown_items {
+    @apply hover:bg-gray-100 px-4 py-1 block
+} 
+
+#navbar_mobile {
+    @apply flex flex-col items-center justify-center space-y-4 py-2 md:hidden w-full
+}
+.dropdown_container {
+    @apply relative cursor-pointer
+}
+.dropdown{
+    @apply flex items-center justify-center gap-1
+}
+#dropdown_mobile_container {
+    @apply absolute left-[70px] top-2 mt-2 bg-white w-48 shadow-lg rounded-md z-50 space-y-2 p-2
+}
