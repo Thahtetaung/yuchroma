@@ -6,7 +6,7 @@ import portraitsImg5 from '../assets/images/portraits/portraits_5.JPG';
 import portraitsImg6 from '../assets/images/portraits/portraits_6.JPG';
 import portraitsImg7 from '../assets/images/portraits/portraits_7.jpg';
 import portraitsImg8 from '../assets/images/portraits/portraits_8.jpg';
-import portraitsImg10 from '../assets/images/portraits/portraits_10.jpg';
+import portraitsImg10 from '../assets/images/portraits/portraits_10.JPG';
 import portraitsImg9 from '../assets/images/portraits/portraits_9.jpg';
 
 export const portraitsData = [
