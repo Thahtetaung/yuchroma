@@ -20,7 +20,7 @@ nav div {
     @apply flex flex-col items-center justify-center space-y-4 py-2 md:hidden w-full
 }
 .dropdown_container {
-    @apply relative cursor-pointer
+    @apply relative cursor-pointer 
 }
 .dropdown{
     @apply flex items-center justify-center gap-1

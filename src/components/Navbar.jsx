@@ -58,7 +58,7 @@ export default function Navbar(){
                             className="dropdown_container"
                             onClick={() => setIsMobileDropdownOpen(!isMobileDropdownOpen)}
                             >
-                            <span className="dropdown_container">Portfolio <span> <FaChevronDown className='text-base pt-1'/> </span></span>
+                            <span className="dropdown">Portfolio <span> <FaChevronDown className='text-base pt-1'/> </span></span>
                             {isMobileDropdownOpen && (
                                 <ul id='dropdown_mobile_container'>
                                 <li><Link to="/portfolio/wedding" className="dropdown_items" onClick={closeMobileMenu}>Wedding</Link></li>
