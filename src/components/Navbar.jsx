@@ -1,5 +1,5 @@
 import '../styles/Navbar.css';
-import Logo from '../assets/images/logo_icon.png';
+import Logo from '../assets/images/ui/logo_text.png';
 import {useState} from 'react';
 import {FaPlus , FaMinus , FaChevronDown} from 'react-icons/fa';
 import { GoSun , GoMoon } from "react-icons/go";

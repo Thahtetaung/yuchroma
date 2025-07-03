@@ -1,4 +1,4 @@
-import TestimonialImg from '../assets/images/home_testimonial_bg.jpg';
+import TestimonialImg from '../assets/images/ui/home_testimonial_bg.jpg';
 
 export default function Testimonial() {
     return (

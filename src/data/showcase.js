@@ -1,7 +1,7 @@
-import foodImg from '../assets/images/food_6.jpg';
-import portraitsImg from '../assets/images/portrait_4.jpg';
-import weddingImg from '../assets/images/wedding_1.jpg';
-import streetImg from '../assets/images/street_1.jpg';
+import foodImg from '../assets/images/ui/food_6.jpg';
+import portraitsImg from '../assets/images/ui/portrait_4.jpg';
+import weddingImg from '../assets/images/ui/wedding_1.jpg';
+import streetImg from '../assets/images/ui/street_1.jpg';
 
 
 export const showcaseImages = 

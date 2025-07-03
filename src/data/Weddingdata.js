@@ -1,11 +1,11 @@
-import WeddingImg1 from '../assets/image/Wedding/wedding_1.jpg';
-import WeddingImg2 from '../assets/image/Wedding/wedding_2.jpg';
-import WeddingImg3 from '../assets/image/Wedding/wedding_3.jpg';
-import WeddingImg4 from '../assets/image/Wedding/wedding_4.jpg';
-import WeddingImg5 from '../assets/image/Wedding/wedding_5.jpg';
-import WeddingImg6 from '../assets/image/Wedding/wedding_6.jpg';
-import WeddingImg7 from '../assets/image/Wedding/wedding_7.jpg';
-import WeddingImg8 from '../assets/image/Wedding/wedding_8.jpg';
+import WeddingImg1 from '../assets/images/Wedding/wedding_1.jpg';
+import WeddingImg2 from '../assets/images/Wedding/wedding_2.jpg';
+import WeddingImg3 from '../assets/images/Wedding/wedding_3.jpg';
+import WeddingImg4 from '../assets/images/Wedding/wedding_4.jpg';
+import WeddingImg5 from '../assets/images/Wedding/wedding_5.jpg';
+import WeddingImg6 from '../assets/images/Wedding/wedding_6.jpg';
+import WeddingImg7 from '../assets/images/Wedding/wedding_7.jpg';
+import WeddingImg8 from '../assets/images/Wedding/wedding_8.jpg';
 
 
 export const weddingData = [

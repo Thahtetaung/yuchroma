@@ -1,8 +1,8 @@
-import foodImg1 from '../assets/image/Food/food_1.jpg';
-import foodImg2 from '../assets/image/Food/food_2.jpg';
-import foodImg3 from '../assets/image/Food/food_3.jpg';
-import foodImg4 from '../assets/image/Food/food_4.jpg';
-import foodImg5 from '../assets/image/Food/food_5.jpg';
+import foodImg1 from '../assets/images/Food/food_1.jpg';
+import foodImg2 from '../assets/images/Food/food_2.jpg';
+import foodImg3 from '../assets/images/Food/food_3.jpg';
+import foodImg4 from '../assets/images/Food/food_4.jpg';
+import foodImg5 from '../assets/images/Food/food_5.jpg';
 
 
 

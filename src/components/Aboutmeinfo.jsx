@@ -1,4 +1,4 @@
-import MeImg from '../assets/images/me.jpg';
+import MeImg from '../assets/images/ui/me.jpg';
 import '../styles/Aboutmeinfo.css';
 
 export default function Aboutmeinfo(){

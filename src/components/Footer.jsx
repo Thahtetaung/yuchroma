@@ -1,6 +1,6 @@
 
-import FooterbgImg from '../assets/images/footer_background.jpg';
-import FooterLogoImg from '../assets/images/logo_footer.png';
+import FooterbgImg from '../assets/images/ui/footer_background.jpg';
+import FooterLogoImg from '../assets/images/ui/logo_footer.png';
 import {FaFacebook , FaInstagram , FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import '../styles/Footer.css';

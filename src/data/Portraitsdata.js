@@ -1,13 +1,13 @@
-import portraitsImg1 from '../assets/image/portraits/portraits_1.jpg';
-import portraitsImg2 from '../assets/image/portraits/portraits_2.jpg';
-import portraitsImg3 from '../assets/image/portraits/portraits_3.jpg';
-import portraitsImg4 from '../assets/image/portraits/portraits_4.jpg';
-import portraitsImg5 from '../assets/image/portraits/portraits_5.jpg';
-import portraitsImg6 from '../assets/image/portraits/portraits_6.jpg';
-import portraitsImg7 from '../assets/image/portraits/portraits_7.jpg';
-import portraitsImg8 from '../assets/image/portraits/portraits_8.jpg';
-import portraitsImg10 from '../assets/image/portraits/portraits_10.jpg';
-import portraitsImg9 from '../assets/image/portraits/portraits_9.jpg';
+import portraitsImg1 from '../assets/images/portraits/portraits_1.jpg';
+import portraitsImg2 from '../assets/images/portraits/portraits_2.jpg';
+import portraitsImg3 from '../assets/images/portraits/portraits_3.jpg';
+import portraitsImg4 from '../assets/images/portraits/portraits_4.jpg';
+import portraitsImg5 from '../assets/images/portraits/portraits_5.jpg';
+import portraitsImg6 from '../assets/images/portraits/portraits_6.jpg';
+import portraitsImg7 from '../assets/images/portraits/portraits_7.jpg';
+import portraitsImg8 from '../assets/images/portraits/portraits_8.jpg';
+import portraitsImg10 from '../assets/images/portraits/portraits_10.jpg';
+import portraitsImg9 from '../assets/images/portraits/portraits_9.jpg';
 
 export const portraitsData = [
     {

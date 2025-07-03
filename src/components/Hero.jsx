@@ -1,5 +1,5 @@
-import Homehero from '../assets/images/home_hero.jpg';
-import Logo from '../assets/images/logo_full.png';
+import Homehero from '../assets/images/ui/home_hero.jpg';
+import Logo from '../assets/images/ui/logo_full.png';
 import '../styles/Hero.css';
 
 export default function Hero({img = Homehero , className = "w-full h-[560px] object-cover object-center"}) {
