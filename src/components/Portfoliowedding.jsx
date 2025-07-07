@@ -1,21 +1,51 @@
-import { weddingData }  from '../data/Weddingdata.js';
+import { useState } from 'react';
+import { weddingData } from '../data/Weddingdata.js';
+import Lightbox from 'yet-another-react-lightbox';
+import { Link } from 'react-router-dom'
+import 'yet-another-react-lightbox/styles.css';
 
 export default function Wedding() {
-    return (
-        <>
-        <section>
-            <div className="w-full bg-gray-100 flex items-center justify-center py-4 flex-col px-4">
-                <h1 className="text-4xl font-bold text-gray-800 py-2">Wedding</h1>
-                <div className='grid grid-cols-2 md:grid-cols-4 gap-2 '>
-                {weddingData.map((item) => (
-                    <div key={item.id} className="rounded-lg aspect-[3/4] overflow-hidden">
-                        <img src={item.img} alt={item.title} className="w-full h-full object-cover" />
-                    </div>
-                ))}
-                </div>
+  const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const slides = weddingData.map((item) => ({ src: item.img }));
+
+  return (
+    <section>
+      <div className="w-full flex items-center justify-center py-4 flex-col px-4">
+        <h1 className="text-4xl font-bold py-2">Wedding</h1>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+          {weddingData.map((item, i) => (
+            <div
+              key={item.id}
+              className="rounded-lg aspect-[3/4] overflow-hidden cursor-pointer"
+              onClick={() => {
+                setIndex(i);
+                setOpen(true);
+              }}
+            >
+              <img
+                src={item.img}
+                alt={item.title}
+                className="w-full h-full object-cover"
+              />
             </div>
-        </section>
-            
-        </>
-    );
+          ))}
+        </div>
+
+        {/* Lightbox */}
+        {open && (
+          <Lightbox
+            open={open}
+            close={() => setOpen(false)}
+            slides={slides}
+            index={index}
+          />
+        )}
+      </div>
+            <div className='py-2 flex items-center justify-center'>
+                  <Link to='/portfolio/street' className=' hover:underline hover:font-bold text-lg duration-100'>See Street</Link>
+            </div>
+    </section>
+  );
 }

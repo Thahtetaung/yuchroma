@@ -31,7 +31,7 @@ export default function Footer(){
                     <div id='footer_pages_container'>
                         <h2  id='footer_pages_header'>Pages</h2>
                             <Link to='/' className='footer_pages' >Home</Link>
-                            <Link to='/portfolio' className='footer_pages'>Portfolio</Link>
+                            <Link to='/portfolio/wedding' className='footer_pages'>Portfolio</Link>
                             <Link to='/aboutme' className='footer_pages'>About me</Link>
                             <Link to='/hireme' className='footer_pages'>Hire me</Link>
                     </div>    

@@ -1,7 +1,8 @@
 import Navbar from './components/Navbar';
 
 import Footer from './components/Footer.jsx';
-import {Route , Routes } from 'react-router-dom';
+import {Route , Routes , Outlet} from 'react-router-dom';
+import { useState , useEffect } from 'react';
 import Aboutme from './pages/Aboutme.jsx';
 import Home from './pages/Home.jsx';
 import Portfolio from './pages/Portfolio.jsx';
@@ -12,10 +13,27 @@ import Street from './pages/Street.jsx';
 import Wedding from './pages/Wedding.jsx';
 
 export default function App() {
+  const [isDark , setIsDark] = useState(() => {
+        const stored = localStorage.getItem("theme");
+        if (stored) return stored === "dark";
+        return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    });
+
+  useEffect(() => {
+    const root = document.documentElement; 
+    if(isDark){
+        root.classList.add('dark');
+        localStorage.setItem("theme" , "dark");
+    }else{
+        root.classList.remove('dark')
+        localStorage.setItem("theme" , "light")
+    }
+    }, [isDark])
+    
   return (
     <>
-    <Navbar />
-    <main>
+    <Navbar isDark={isDark} setIsDark={setIsDark}/>
+    <main> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />

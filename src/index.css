@@ -6,5 +6,5 @@
 
 
 body{
-  @apply font-custom;
+  @apply font-custom dark:bg-gray-900 dark:text-white duration-300 transition-all;
 }

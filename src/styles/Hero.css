@@ -12,7 +12,7 @@
     @apply text-center text-[20px] font-custom text-black
 }
 .hero_subtext{
-  @apply text-center font-custom text-lg
+  @apply text-center font-custom text-lg text-black
 }
 .hero_btn{
     @apply bg-blue-600 px-4 py-2 rounded-md text-white font-custom hover:bg-blue-900
