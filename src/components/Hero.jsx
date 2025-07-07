@@ -1,5 +1,6 @@
 import Homehero from '../assets/images/ui/home_hero.jpg';
 import Logo from '../assets/images/ui/logo_full.png';
+import { Link } from 'react-router-dom'
 import '../styles/Hero.css';
 
 export default function Hero({img = Homehero , className = "w-full h-[560px] object-cover object-center"}) {
@@ -20,7 +21,10 @@ export default function Hero({img = Homehero , className = "w-full h-[560px] obj
                         <p>📍Twin Cities Area, MN</p>
                     </div>
                     <div className="text-center py-2">
-                        <button className="hero_btn" aria-label='work with me'><a href="#">Work with me</a></button>
+                        <Link to='hireme'>
+                            <button className="hero_btn" aria-label='work with me'>Work with me</button>
+                        </Link>
+                        
                     </div>
                 </div>
             </div>

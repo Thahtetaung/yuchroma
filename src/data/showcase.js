@@ -7,22 +7,26 @@ import streetImg from '../assets/images/ui/street_1.jpg';
 export const showcaseImages = 
 [{
     id: 1,
-    title: "Link to wedding photography page",
+    title: "Wedding",
     image: weddingImg,
-    link: "/portfolio/wedding"
+    link: "/portfolio/wedding",
+    alt: "Bride and groom holding hands during sunset"
 }, {
     id: 2,
-    title: "Link to portraits page",
+    title: "Portraits",
     image: portraitsImg,
-    link: "/portfolio/portraits"
+    link: "/portfolio/portraits",
+    alt: "Studio portrait of a woman with dramatic lighting"
 }, {
     id: 3,
-    title: "Link to food photography page",
+    title: "Food",
     image: foodImg,
-    link: "/portfolio/food"
+    link: "/portfolio/food",
+    alt: "Ramen bowl "
 }, {
     id: 4,
-    title: "Link to street photography page",
+    title: "Street",
     image: streetImg,
-    link: "/portfolio/street"
+    link: "/portfolio/street",
+    alt: "Image of woman walking"
 }];

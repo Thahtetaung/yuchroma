@@ -1,4 +1,5 @@
 import TestimonialImg from '../assets/images/ui/home_testimonial_bg.jpg';
+import { Link } from 'react-router-dom'
 
 export default function Testimonial() {
     return (
@@ -19,7 +20,9 @@ export default function Testimonial() {
                                 
                             </div>
 
-                            <button className="bg-blue-600 py-2 px-4 rounded-md text-white" aria-label='work with me'>Work with me</button>
+                        <Link to='hireme'>
+                            <button className="hero_btn" aria-label='work with me'>Work with me</button>
+                        </Link>
                         </div> 
                     </div> 
                 </div>

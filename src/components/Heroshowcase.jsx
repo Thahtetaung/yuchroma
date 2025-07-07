@@ -23,7 +23,7 @@ export default function Heroshowcase() {
                             {showcaseImages.map((item) => (
                                 <div key={item.id} className="group embla__slide images_container">
                                     <Link to={item.link}>
-                                        <img src={item.image} alt={item.title} className="images"/>
+                                        <img src={item.image} alt={item.alt} className="images"/>
                                         <div className="overlay">
                                             <span className="image_title">{item.title}</span>
                                         </div>
