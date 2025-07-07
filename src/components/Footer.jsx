@@ -25,9 +25,9 @@ export default function Footer(){
                 <div id='footer_links_container'>
                     <div id='footer_socials_container'>
                         <h2 id='footer_social_header'>Let's Connect</h2>
-                        <a href="#" className='footer_socials'><FaFacebook />Facebook</a>
-                        <a href="#" className='footer_socials'><FaInstagram />Instagram</a>
-                        <a href="#" className='footer_socials'><FaLinkedin />Linkedin</a>
+                        <a href="https://facebook.com" className='footer_socials'><FaFacebook target='_blank'/>Facebook</a>
+                        <a href="https://instagram.com" className='footer_socials'><FaInstagram target='_blank'/>Instagram</a>
+                        <a href="https://linkedin.com" className='footer_socials'><FaLinkedin target='_blank'/>Linkedin</a>
                     </div>  
                     <div id='footer_pages_container'>
                         <h2  id='footer_pages_header'>Pages</h2>
@@ -39,7 +39,7 @@ export default function Footer(){
                 </div>
             </div> 
                 <div id='footer_copyright'>
-                    <p>Website provided by <a href="#" className="hover:underline font-bold">20-something</a> All rights served.</p>
+                    <p>Website provided by <a href="https://20-sth.com" className="hover:underline font-bold" target='_blank'>20-something</a> All rights served.</p>
                 </div>
             
         
