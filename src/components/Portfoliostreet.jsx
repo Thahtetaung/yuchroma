@@ -1,5 +1,5 @@
 import { streetData } from '../data/Streetdata.js'
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import { Link } from 'react-router-dom'
 import 'yet-another-react-lightbox/styles.css';
@@ -9,6 +9,10 @@ export default function Portfoliostreet() {
     const [index , setIndex ] = useState(0)
 
     const slides = streetData.map((item) => ({ src: item.img }))
+
+    useEffect(() => {
+        window.scrollTo({ top: 0 , behavior: "smooth" })
+    })
 
 
     return (

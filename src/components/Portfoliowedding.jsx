@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 import { weddingData } from '../data/Weddingdata.js';
 import Lightbox from 'yet-another-react-lightbox';
 import { Link } from 'react-router-dom'
@@ -9,6 +9,10 @@ export default function Wedding() {
   const [index, setIndex] = useState(0);
 
   const slides = weddingData.map((item) => ({ src: item.img }));
+
+    useEffect(() => {
+        window.scrollTo({ top: 0 , behavior: "smooth" })
+    }, [])
 
   return (
     <section>
@@ -28,6 +32,7 @@ export default function Wedding() {
                 src={item.img}
                 alt={item.title}
                 className="w-full h-full object-cover"
+                loading='lazy'
               />
             </div>
           ))}

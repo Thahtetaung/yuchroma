@@ -1,6 +1,6 @@
 import { foodData } from '../data/Fooddata.js';
 
-import { useState } from 'react'
+import { useState , useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Lightbox } from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css'
@@ -10,6 +10,10 @@ export default function Food() {
   const [index , setIndex ] = useState(0)
 
   const slides = foodData.map((item) => ({src: item.img}))
+  
+  useEffect(() => {
+    window.scrollTo({ top: 0 , behavior: "smooth" })
+  }, [])
     return (
         <>
             <section>
@@ -28,7 +32,8 @@ export default function Food() {
                       <img
                         src={item.img}
                         alt={item.title}
-                        className="w-full h-full object-cover"/>
+                        className="w-full h-full object-cover"
+                        loading='lazy'/>
                     </div>
                   ))}
                 </div>
@@ -42,7 +47,7 @@ export default function Food() {
                 }
               </div>
                 <div className='py-2 flex items-center justify-center'>
-                  <Link to='/portfolio/portraits' className=' hover:underline hover:font-bold text-lg duration-100'>See Portratis</Link>
+                  <Link to='/portfolio/portraits' className=' hover:underline hover:font-bold text-lg duration-100'>See Portraits</Link>
                 </div>
             </section>
         </>
