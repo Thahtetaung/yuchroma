@@ -19,7 +19,7 @@ export default function Testimonial() {
                                 
                             </div>
 
-                            <button className="bg-blue-600 py-2 px-4 rounded-md" aria-label='work with me'>Work with me</button>
+                            <button className="bg-blue-600 py-2 px-4 rounded-md text-white" aria-label='work with me'>Work with me</button>
                         </div> 
                     </div> 
                 </div>
