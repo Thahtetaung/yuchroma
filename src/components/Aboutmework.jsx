@@ -27,7 +27,7 @@ export default function Aboutmework() {
                         </div>
                     </div>
                 </div>
-                <Link to="/portfolio" id="aboutme_work_link"> See more of what I can create for you</Link>
+                <Link to="/portfolio/wedding" id="aboutme_work_link"> See more of what I can create for you</Link>
                
             </section>
         </>

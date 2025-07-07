@@ -20,7 +20,7 @@ export default function Testimonial() {
                                 
                             </div>
 
-                        <Link to='hireme'>
+                        <Link to='/hireme'>
                             <button className="hero_btn" aria-label='work with me'>Work with me</button>
                         </Link>
                         </div> 

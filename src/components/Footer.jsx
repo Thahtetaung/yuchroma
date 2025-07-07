@@ -15,10 +15,11 @@ export default function Footer(){
                 </div>
             <div id='footer_tabs_container'>
                 <div id='footer_logo_container'>
-                        <a href="#"><img src={FooterLogoImg} alt="Logo" /></a>
+                    <Link to='/'><img src={FooterLogoImg} alt="Logo" /></Link>
                         <h2>Colorful memories, framed stories</h2>
                     <div>
-                        <button className="hero_btn"><a href="#">Work with me</a></button>
+                        <Link to='/hireme'><button className="hero_btn" aria-label='work with me'><a href="#">Work with me</a></button></Link>
+                        
                     </div>
                 </div>
                 <div id='footer_links_container'>
