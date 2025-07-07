@@ -33,7 +33,9 @@ export default function Heroshowcase() {
                         </div>   
                      </div>
                      <div id='showcase_link'>
-                        <a href="#">See More of what I can create for you</a>
+                        <Link to='portfolio/wedding'>
+                            See More of what I can create for you
+                        </Link>
                      </div>
                 </div>
             </section>
