@@ -7,22 +7,22 @@ import streetImg from '../assets/images/ui/street_1.jpg';
 export const showcaseImages = 
 [{
     id: 1,
-    title: "Wedding",
+    title: "Link to wedding photography page",
     image: weddingImg,
     link: "/portfolio/wedding"
 }, {
     id: 2,
-    title: "Portraits",
+    title: "Link to portraits page",
     image: portraitsImg,
     link: "/portfolio/portraits"
 }, {
     id: 3,
-    title: "Food",
+    title: "Link to food photography page",
     image: foodImg,
     link: "/portfolio/food"
 }, {
     id: 4,
-    title: "Street",
+    title: "Link to street photography page",
     image: streetImg,
     link: "/portfolio/street"
 }];
