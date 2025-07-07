@@ -9,20 +9,20 @@ export const showcaseImages =
     id: 1,
     title: "Wedding",
     image: weddingImg,
-    link: "/portfolio#wedding"
+    link: "/portfolio/wedding"
 }, {
     id: 2,
     title: "Portraits",
     image: portraitsImg,
-    link: "/portfolio#portraits"
+    link: "/portfolio/portraits"
 }, {
     id: 3,
     title: "Food",
     image: foodImg,
-    link: "/portfolio#food"
+    link: "/portfolio/food"
 }, {
     id: 4,
     title: "Street",
     image: streetImg,
-    link: "/portfolio#street"
+    link: "/portfolio/street"
 }];

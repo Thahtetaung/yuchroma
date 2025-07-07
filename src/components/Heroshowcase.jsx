@@ -1,6 +1,7 @@
 import '../styles/Heroshowcase.css';
 import { showcaseImages } from "../data/showcase.js"; 
 import useEmblaCarousel from 'embla-carousel-react';
+import { Link } from 'react-router-dom'
 
 export default function Heroshowcase() {
     const [emblaRef] = useEmblaCarousel({ loop: false , draggable: true});
@@ -21,12 +22,12 @@ export default function Heroshowcase() {
                         <div id='showcase_images' className='embla__container'>
                             {showcaseImages.map((item) => (
                                 <div key={item.id} className="group embla__slide images_container">
-                                    <a href="#">
+                                    <Link to={item.link}>
                                         <img src={item.image} alt={item.title} className="images"/>
                                         <div className="overlay">
                                             <span className="image_title">{item.title}</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             ))}
                         </div>   
