@@ -20,7 +20,7 @@ export default function Hero({img = Homehero , className = "w-full h-[560px] obj
                         <p>📍Twin Cities Area, MN</p>
                     </div>
                     <div className="text-center py-2">
-                        <button className="hero_btn"><a href="#">Work with me</a></button>
+                        <button className="hero_btn" aria-label='work with me'><a href="#">Work with me</a></button>
                     </div>
                 </div>
             </div>

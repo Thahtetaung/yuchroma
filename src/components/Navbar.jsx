@@ -48,11 +48,11 @@ export default function Navbar({ isDark , setIsDark }){
                             
                         </ul>
                         <div className='md:hidden'>
-                            <button onClick={() => setIsOpen(!isOpen)}>
+                            <button onClick={() => setIsOpen(!isOpen)} aria-label='dropdown'>
                                 {isOpen ? <FaMinus className='text-xl text-gray-800'/> : <FaPlus className='text-xl text-gray-800'/>}
                             </button>
                         </div>
-                        <button onClick={() => setIsDark(!isDark)} className='flex items-center p-2 text-2xl'>{isDark ? <GoSun /> : <GoMoon />} </button>
+                        <button onClick={() => setIsDark(!isDark)} className='flex items-center p-2 text-2xl' aria-label='toggle darkmode'>{isDark ? <GoSun /> : <GoMoon />} </button>
                     </div> 
                 </div>
             {/* Mobile Navigation */}
