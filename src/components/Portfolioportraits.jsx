@@ -12,12 +12,12 @@ export default function Portfolioportraits() {
 
   useEffect(() => {
     window.scrollTo({ top: 0 , behavior: "smooth" })
-  })
+  }, [])
     return (
         <>
             <section>
-              <div className="w-full flex items-center justify-center py-4 flex-col px-4">
-                <h1 className="text-4xl font-bold py-2">Portraits</h1>
+              <div className="w-full flex items-center justify-center flex-col px-4">
+                <h1 className="text-4xl font-bold py-4 my-2">Portraits</h1>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                   {portraitsData.map((item , i) => (
                     <div
@@ -31,7 +31,8 @@ export default function Portfolioportraits() {
                       <img
                         src={item.img}
                         alt={item.title}
-                        className="w-full h-full object-cover"/>
+                        className="w-full h-full object-cover"
+                        loading='lazy'/>
                     </div>
                   ))}
                 </div>

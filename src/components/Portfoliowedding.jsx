@@ -16,8 +16,8 @@ export default function Wedding() {
 
   return (
     <section>
-      <div className="w-full flex items-center justify-center py-4 flex-col px-4">
-        <h1 className="text-4xl font-bold py-2">Wedding</h1>
+      <div className="w-full flex items-center justify-center flex-col px-4">
+        <h1 className="text-4xl font-bold py-4  my-2">Wedding</h1>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {weddingData.map((item, i) => (
             <div
