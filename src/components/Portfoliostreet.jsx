@@ -12,7 +12,7 @@ export default function Portfoliostreet() {
 
     useEffect(() => {
         window.scrollTo({ top: 0 , behavior: "smooth" })
-    })
+    }, [])
 
 
     return (
@@ -34,7 +34,8 @@ export default function Portfoliostreet() {
                                 <img
                                 src={item.img}
                                 alt={item.title}
-                                className="w-full h-full object-cover"/>
+                                className="w-full h-full object-cover"
+                                loading='lazy'/>
                             </div>
                             ))}
                         </div>

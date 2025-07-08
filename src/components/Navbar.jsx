@@ -23,7 +23,7 @@ export default function Navbar({ isDark , setIsDark }){
         <>
             <nav>
                 <div className='dark:bg-gray-900'>
-                    <div id='navbar_leftcontainer'>
+                    <div id='navbar_leftcontainer' className='flex-shrink-0'>
                         <Link to="/" className="text-2xl font-bold text-gray-800"><img src={Logo} alt="Logo " className='w-12 h-10'/></Link>
                     </div>
                     <div id='navbar_rightcontainer'>
