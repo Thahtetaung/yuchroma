@@ -18,7 +18,7 @@ export default function Footer(){
                     <Link to='/'><img src={FooterLogoImg} alt="Logo" /></Link>
                         <h2>Colorful memories, framed stories</h2>
                     <div>
-                        <Link to='/hireme'><button className="hero_btn" aria-label='work with me'><a href="#">Work with me</a></button></Link>
+                        <Link to='/hireme'><button className="hero_btn" aria-label='work with me'>Work with me</button></Link>
                         
                     </div>
                 </div>
